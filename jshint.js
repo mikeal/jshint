@@ -5893,7 +5893,10 @@ loop:   for (;;) {
     itself.jshint = itself;
 
     itself.edition = '2011-03-01';
-
+    
+    // Node package extentsions
+    itself.boolOptions = boolOptions;
+    
     return itself;
 
 }());

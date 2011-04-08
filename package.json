@@ -1,0 +1,19 @@
+{
+  "name": "jshint",
+  "description": "JSHint is a community-driven tool to detect errors in JavaScript code and enforce your team's coding conventions.",
+  "version": "0.0.0",
+  "homepage": "http://jshint.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jshint/jshint.git"
+  },
+  "author": "Anton Kovalyov <anton@kovalyov.net>",
+  "main": "main.js",
+  "directories": {
+    "lib": "."
+  },
+  "engines": {
+    "node": "*"
+  }, 
+  "bin": { "jshint" : "./bin.js" }
+}
